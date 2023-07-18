@@ -13,8 +13,8 @@ public class InterestManager {
 
     public double getInterestRate(int day) {
         double interest;
-        //90일 이내의 경우 0.5
-        //91 ~ 180일 이내 1
+        //90 0.5
+        //91 ~ 180 1
         //181 ~ 364 2
         //365 5.6
         if (day < 90) {
